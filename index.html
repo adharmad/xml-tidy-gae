@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>
+      XML Tidy
+    </title>
+  </head>
+  <body>
+
+    <table align="center">
+      <tr>
+        <td align="center">
+          <h1>XML Tidy</h1>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          By IDYeah Labs
+        </td>
+      </tr>
+    </table>
+    
+    <br>
+    <br>
+
+    <form action="http://xml-tidy.appspot.com" method="post">
+      <table align="center">
+        <tr>
+          <td align="center">
+            <div text-aligh:center><textarea name="untidyxml" rows="10" cols="60">{{ untidyxml }}</textarea></div>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <div text-aligh:center><input type="submit" value="Format XML"></div>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <div text-aligh:center><textarea name="tidyxml" rows="10" cols="60" readonly="readonly">{{ tidyxml }}</textarea></div>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <a href="{{ url }}">{{ url_linktext }}</a>
+
+  </body>
+</html>
